@@ -1,0 +1,10 @@
+[package]
+name = "test_project"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+widestring = "1.0.2"
+winapi = { version = "0.3.9", features = ["winuser", "winbase", "ntdef", "processthreadsapi", "tlhelp32"] }
